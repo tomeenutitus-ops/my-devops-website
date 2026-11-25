@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My DevOps Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#">Cloud<span>Site</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">WELCOME TO MY DEVOPS PROJECT</p>
+      <h1>Build. Deploy.<br><span>Grow.</span></h1>
+      <p class="intro">A simple website to learn how frontend code moves through GitHub, Jenkins, Docker and AWS.</p>
+      <a class="button" href="#about">Explore the project</a>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">ABOUT</p>
+      <h2>Learning by building</h2>
+      <p>This frontend is the starting point of a hands-on CI/CD project. We will upload it to GitHub and later automate its deployment to an AWS server.</p>
+    </section>
+
+    <section class="section cards" id="services">
+      <article class="card">
+        <h3>Version control</h3>
+        <p>Track website changes using Git and GitHub.</p>
+      </article>
+      <article class="card">
+        <h3>Automation</h3>
+        <p>Use Jenkins to automate testing and deployment tasks.</p>
+      </article>
+      <article class="card">
+        <h3>Containers</h3>
+        <p>Package the website with Docker and run it consistently.</p>
+      </article>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Thanks for visiting!</h2>
+      <p id="message">This website is ready for your first CI/CD deployment.</p>
+      <button class="button" id="changeMessage">Test a website update</button>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> CloudSite · Built for learning CI/CD</footer>
+  <script src="script.js"></script>
+</body>
+</html>
